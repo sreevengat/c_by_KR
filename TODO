@@ -1,0 +1,26 @@
+# To Compile the program run
+# global Makefile for each chapter or 
+# local Makefile for each chapter exercise
+
+
+# change to dir 
+$ cd chap-1
+# compile
+$ make 
+# change dir to any exercise and run
+# example
+$ ex1-01/ex1-01
+# clean
+$ make clean
+
+or
+# change to dir
+$ cd c_by_KR/chap-1/ex1-01
+# compile each exercise
+$ make
+# run
+$ ./ex1-01
+# clean
+$ make clean
+
+
