@@ -10,7 +10,6 @@
 
 #define MAXLINE	1000
 
-unsigned htoi(char s[]);
 int get_line(char line[], int max);
 int lower(int c);
 

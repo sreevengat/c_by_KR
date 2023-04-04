@@ -1,0 +1,10 @@
+# measure the timing by
+
+$ time ./ex3-01
+
+# original and exercise binsearch 
+# both are provided try to run both
+# measure the timings
+
+# my test results are save in time.txt
+# exercise , binsearch faster than original

@@ -1,0 +1,11 @@
+#time stamp for binsearch algorithm
+
+from exercise:
+	real	0m0.004s
+	user	0m0.000s
+	sys		0m0.004s
+
+from book:
+	real 0m0.005s
+	user 0m0.000s
+	sys  0m0.006s
