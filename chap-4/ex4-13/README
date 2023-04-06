@@ -1,0 +1,4 @@
+# Need to link math libraray 
+# in linker option 
+# for <math.h> (-lm)
+# see Makefile line 5 LIBS=-lm

@@ -1,0 +1,12 @@
+# From chap-4 , we can write our
+# functions in separate file, 
+# in order to use the functions
+# function prototype must be declare
+# in the main.c or other.c files, where
+# it is used.
+
+
+# if functions are in separate file
+# and it should be added to Makefile
+# in SRC_FILES (line 8), if function 
+# is used.
