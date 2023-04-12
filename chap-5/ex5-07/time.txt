@@ -1,0 +1,11 @@
+# Time take for sortinr string.c file
+
+# using alloc
+real	0m0.015s
+user	0m0.008s
+sys		0m0.000s
+
+# using buffer supplied by main
+real 	0m0.008s
+user 	0m0.008s
+sys  	0m0.000s

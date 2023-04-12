@@ -1,0 +1,157 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+				&& *src && *dest){
+				;
+				return 1;
+			;
+			if (src == t)
+			return 0;
+			return i;
+			return s1-s;
+			s2++;
+			t1++;
+		*dest++ = *src++;
+		*dest++=*src++;
+		*end-- = t;
+		*start++ = *end;
+		;
+		dest++;
+		dest++;
+		dest++;
+		dest--;
+		end++;
+		for (j=i, k=t_len; k >= 0 && s[j]==t[k]; j--,k--)
+		if (!*s)
+		if (k == -1)
+		if (t1 > t  && !(*t))
+		p++;
+		s++;
+		s--;
+		s1++;
+		s2=s1;
+		src++;
+		src++;
+		t = *start;
+		t1=t;
+		while (*t1 && *s2 == *t1){
+		}
+	*dest = '\0';
+	*dest = '\0';
+	/* it will copy '\0' also */
+	/* when loops end s points to '\0' */
+	char *p = s;
+	char *s1, *s2, *t1;
+	char *src=t, *dest=s;
+	char *src=t, *dest=s;
+	char *src=t, *dest=s;
+	char *src=t, *dest=s;
+	char *start, *end, t;
+	end--;
+	for (; *s == *t; s++, t++)
+	for (; dest >= s && *src==*dest; src--, dest--)
+	for (i=str_len(s)-1; i >= 0; i--){
+	if (*(dest-1) == '\n')
+	if (*(s-1) == '\n')	 
+	int i, j, k, t_len;
+	return (*dest-*src);
+	return *s-*t;
+	return -1;
+	return -1;
+	return 0;
+	return p-s;
+	return src-t;
+	return src-t;
+	s1=s;
+	start=end=s;
+	t_len=str_len(t)-1;
+	while ((*s++ = *t++))
+	while ((*s++=*t++))
+	while (*dest)
+	while (*dest)
+	while (*end)
+	while (*p)
+	while (*s)
+	while (*s1){
+	while (*src)
+	while (--n >= 0 && *src == *dest 
+	while (--n >= 0 && *src)
+	while (--n >=0 && *src)
+	while (start < end){
+	}
+	}
+	}
+	}
+#include "string.h"
+#include <stdio.h>
+/* reverse: reverse a string using recurrsion */
+/* scan from left to right */
+/* scan from right to left */
+/* str_cat : copies t to s*/
+/* str_cmp: return <0 if s<t, 0 if s==t, >0 if s>t */
+/* str_cpy: copy t to s */
+/* str_end: return 1, if t occurs in s, from end , else 0*/
+/* str_ncat: concatenate n chars from t to s */
+/* str_ncpy: copy first n charactes from t to s */
+/* strindex: return index of t in s, -1 if none */
+/* strrindex: return index of t in s, -1 if none */
+/*str_ncmp: compare n nchars from t to s */
+int
+int
+int
+int
+int
+int
+int
+int 
+str_cat(char *s, char *t){
+str_cmp(char *s, char *t){
+str_cpy(char *s, char *t){
+str_end(char *s, char *t){
+str_index(char s[], char t[]){
+str_len(char *s){
+str_ncat(char *s, char *t, int n){
+str_ncmp(char *s, char *t, int n){
+str_ncpy(char *s, char *t, int n){
+str_rev(char *s){
+str_rindex(char s[], char t[]){
+void
+void
+void
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}

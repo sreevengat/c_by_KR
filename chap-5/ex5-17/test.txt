@@ -1,0 +1,10 @@
+1.03		The For Statement
+1.01		Getting Started
+1.02		Variables and Arithmetic Expressions
+1.04		Symbolic Constants
+1.05		Character Input and Output 
+1.09		Character Arrays
+1.06		Arrays
+1.07		Functions
+1.08		Arguments-Call by Value
+1.10		External Variables and Scope
