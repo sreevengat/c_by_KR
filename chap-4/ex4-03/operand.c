@@ -32,7 +32,6 @@ getop(char s[]){
 		return c;	/* not a number */
 	}
 
-
 	if (isdigit(c))	/* collect integer part */
 HERE:	while (isdigit(s[++i] = c = getch()))
 			;
@@ -42,6 +41,5 @@ HERE:	while (isdigit(s[++i] = c = getch()))
 	s[i] = '\0';
 	if (c != EOF)	/* push back the character */
 		ungetch(c);
-
 	return NUMBER;
 }
